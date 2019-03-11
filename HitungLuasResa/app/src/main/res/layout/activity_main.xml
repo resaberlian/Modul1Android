@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="rezaberlian_id.sch.smktelkom_mlg.learn.hitungluas_resa.MainActivity">
+
+
+        <TextView
+            android:id="@+id/txtsisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukan Panjang Sisi " />
+
+        <EditText
+            android:id="@+id/editSisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtsisi"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editSisi"
+            android:layout_centerHorizontal="true"
+            android:background="#f01111"
+            android:text="Oke" />
+
+
+        <TextView
+            android:id="@+id/txtluas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnOk"
+            android:layout_alignParentStart="true"
+            android:text="Luas Persegi : " />
+
+         <EditText
+            android:id="@+id/edithasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtluas"
+            android:layout_alignEnd="@+id/editSisi"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/txtkeliling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edithasil"
+            android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editkeliling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtkeliling"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

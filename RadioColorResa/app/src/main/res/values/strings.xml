@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RadioColor Resa</string>
+    <string name="btnexit">Exit </string>
+    <string name="txtwarna">Warna yang dipilih </string>
+    <color name="backBlue"> #0000FF</color>
+    <color name="backRed"> #FF0000</color>
+    <color name="backGreen"> #00FF00</color>
+    <color name="backWhite"> #FFFFFF</color>
+    <color name="backDark"> #000000</color>
+    <color name="backPink"> #FF4081</color>
+    <color name="backCayon"> #2FfFFF</color>
+    <color name="backYellow"> #FFFF81</color>
+</resources>
